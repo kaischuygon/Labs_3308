@@ -1,0 +1,14 @@
+Sep 18 14:51:36 zephy-VirtualBox thermald[667]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Sep 18 14:51:36 zephy-VirtualBox thermald[667]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Sep 18 14:51:36 zephy-VirtualBox thermald[667]: [WARN]error: could not parse file /etc/thermald/thermal-conf.xml
+Sep 18 14:51:37 zephy-VirtualBox NetworkManager[629]: <warn>  [1600462297.5024] Error: failed to open /run/network/ifstate
+Sep 18 14:51:43 zephy-VirtualBox /usr/lib/gdm3/gdm-x-session[1061]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Sep 18 14:51:45 zephy-VirtualBox gnome-session-c[1357]: Error creating FIFO: File exists
+Sep 18 14:51:50 zephy-VirtualBox gnome-shell[1379]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 18 14:51:57 zephy-VirtualBox systemd-resolved[585]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 18 14:52:11 zephy-VirtualBox pulseaudio[1043]: GetManagedObjects() failed: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+Sep 18 14:52:15 zephy-VirtualBox systemd-resolved[585]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 18 15:09:44 zephy-VirtualBox chromium_chromium.desktop[2828]: user-open error: request declined by the user (code 1)
+Sep 18 15:09:57 zephy-VirtualBox gnome-shell[1379]: JS ERROR: TypeError: area is null#012padArea@resource:///org/gnome/shell/ui/workspace.js:1101:9#012_updateWindowPositions@resource:///org/gnome/shell/ui/workspace.js:1334:20#012_realRecalculateWindowPositions@resource:///org/gnome/shell/ui/workspace.js:1311:14#012_recalculateWindowPositions/this._positionWindowsId<@resource:///org/gnome/shell/ui/workspace.js:1286:18
+Sep 18 15:09:59 zephy-VirtualBox systemd-resolved[585]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
+Sep 18 15:10:57 zephy-VirtualBox systemd-resolved[585]: Server returned error NXDOMAIN, mitigating potential DNS violation DVE-2018-0001, retrying transaction with reduced feature level UDP.
