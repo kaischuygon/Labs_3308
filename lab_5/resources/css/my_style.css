@@ -1,0 +1,14 @@
+/* Add any css you want to use for you website here */
+
+.container {
+    padding-top: 5vh;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color: #121212 !important;
+    border-color: #121212;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}

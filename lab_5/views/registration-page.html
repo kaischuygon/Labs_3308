@@ -1,0 +1,137 @@
+<!-- Team Stats Page -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>2020 Season Stats</title>
+	<link rel='icon' href='../resources/img/favicon.ico' type='image/x-icon'/>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+  </head>
+  <body class="bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+	  <a class="navbar-brand" href="home.html">
+		<img class="rounded-circle" src="../resources/img/cu_boulder_logo.jpg" alt="" width="30" height="30">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="home.html">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="team_stats.html">Season Stats</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="player_info.html">Player Information</a>
+          </li>
+          <li class="nav-item active">
+			<a class="nav-link" href="registration-page.html">Registration Page<span class="sr-only">(current)</span></a>
+		  </li>
+		</ul>
+		<div class="form-inline my-2 my-lg-0">
+			<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Logout</button>
+		</div>
+	  </div>
+	</nav>
+	<div class="container">
+		<!-- 
+			Todo: Add to your team_stats.html page the following components:
+				1. JumboTron announcing the Fall 2020 Season
+				2. A table listing 3 different football matches (Colorado State, Nebraska, & New Hampshire)
+				3. A second table listing the Win/Loss ratio for the season
+        -->
+        <div class="jumbotron bg-warning">
+            <p class="display-4">Register</p>
+            <form action="home.html">
+                <div class="form-group">
+                  <label for="inputName">Name</label>
+                  <input type="text" class="form-control" id="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="text" class="form-control" id="email" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="text" class="form-control" id="password" placeholder="Enter password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="text" class="form-control" id="confirm-password" placeholder="Re-enter password">
+                  </div>
+                <div class="form-group">
+                    <label for="cu-alumni">CU Alumni</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cu-alumni" id="cu-alumni-radio" value="option-yes">
+                        <label class="form-check-label" for="cu-alumni">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cu-alumni" id="cu-alumni-radio" value="option-no">
+                        <label class="form-check-label" for="cu-alumni">
+                          No
+                        </label>
+                      </div>
+                </div>
+                <div class="form-group">
+                    <label for="cu-student">CU Student</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cu-student" id="cu-student-radio" value="option-yes">
+                        <label class="form-check-label" for="cu-student">
+                          Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="cu-student" id="cu-student-radio" value="option-no">
+                        <label class="form-check-label" for="cu-student">
+                          No
+                        </label>
+                      </div>
+                </div>
+                <div class="form-group">
+                    <label for="student-status">Student Status</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="student-status" id="student-status-radio" value="option-undergrad">
+                        <label class="form-check-label" for="student-status">
+                          Undergrad
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="undergrad-select">
+                          <option>Freshman</option>
+                          <option>Sophomore</option>
+                          <option>Junior</option>
+                          <option>Senior</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="student-status" id="student-status-radio" value="option-grad">
+                    <label class="form-check-label" for="student-status">
+                        Grad
+                    </label>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-control" id="grad-select">
+                          <option>MA</option>
+                          <option>MBA</option>
+                          <option>PhD</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" href="home.html">Submit</button>
+              </form>
+        </div>
+	</div>
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
