@@ -15,7 +15,7 @@ function getFarenheitTemp(temp) {
 
 function getQuery() {
   if(document.getElementById('latitude').value == "") {
-    return "Denver";
+    return "Boulder"; // default location will be Boulder, CO
   } else {
     return latitude = document.getElementById('latitude').value + "," + document.getElementById('longitude').value;
   }
@@ -122,8 +122,8 @@ function loadWeatherData( ) {
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">${dayOfWeek}</h5>
-            <p class="card-text">High: ${curr.maxtemp}<br>
-              Low: ${curr.mintemp}<br>
+            <p class="card-text">High: ${getFarenheitTemp(curr.maxtemp)} °F<br>
+              Low: ${getFarenheitTemp(curr.maxtemp)} °F<br>
               Sunrise: ${curr.astro.sunrise}<br>
               Sunset: ${curr.astro.sunset}</p>
           </div>

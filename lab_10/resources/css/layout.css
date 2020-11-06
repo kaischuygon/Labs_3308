@@ -1,4 +1,4 @@
-#thermometer_inner { width: 95%; height: 20%; margin:2.5%; background: red; position:absolute; bottom:10%;}
+#thermometer_inner { width: 95%; height: 20%; margin:2.5%; background: red; position:absolute; bottom: 0;}
 #thermometer_outer {height:400px; position:relative;}
 #temp_today { color:white; text-align:center; position:relative; top:0%; }
 body{
